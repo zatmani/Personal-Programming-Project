@@ -6,8 +6,8 @@ while num_players < 2 and num_players > 4:
 print(f"Ok... Preparing game for {num_players} players")
 print("Shuffling cards...")
 if num_players == 2:
-    player_1 = 500
-    player_2 = 500
+  player_1 = 500
+  player_2 = 500
 if num_players == 3:
     player_1 = 500
     player_2 = 500
