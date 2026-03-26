@@ -26,6 +26,7 @@ if num_players == 3:
     player_3_m = 500
     print(f"Player 3 has {player_3_m}$")
     player_3_c = random.sample(cards, 2)
+    players_cards += [player_3_c]
 if num_players == 4:
     player_3_m = 500
     player_4_m = 500
@@ -33,6 +34,7 @@ if num_players == 4:
     print(f"Player 4 has {player_4_m}$")
     player_3_c = random.sample(cards, 2)
     player_4_c = random.sample(cards, 2)
+    players_cards += player_4_c
 num = 1
 card = 0
 for i in range(num_players):
@@ -44,3 +46,4 @@ for i in range(num_players):
     print(players_cards[card])
     system("cls")
     num +=1
+    card += 1
