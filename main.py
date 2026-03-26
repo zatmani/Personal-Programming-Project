@@ -44,6 +44,9 @@ for i in range(num_players):
         print(i)
         sleep(1)
     print(players_cards[card])
+    for i in range(3, -1, -1):
+        print(i)
+        sleep(1)
     system("cls")
     num +=1
     card += 1
